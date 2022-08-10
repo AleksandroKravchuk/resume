@@ -1,0 +1,226 @@
+body {
+  font-family: sans-serif;
+background-color:  #E5E5E5;;;
+}
+
+.about_my_proffesion {
+    font-size: 14px;
+    font-size: 700;
+    color: black;
+}
+li {
+    color: 595959;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.main_conteiner {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 1200px;
+    background: white;
+    margin: 40px auto;
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+.main_content_sektion {
+margin: 100px 90px 100px 90px;
+}
+/* about me section */
+
+.about_me {
+    margin-bottom: 40px;
+}
+.about_my_proffesion {
+   width: 700px; 
+   scale: normal; 
+   size: 14px;
+   line-height: 17px; 
+   color: #595959; 
+   margin-bottom: 20px;
+}
+.about_my_name {
+    width      : 700px;
+    scale      : normal;
+    size       : 14px;
+    line-height: 17px;
+    color: #595959;
+    margin-bottom: 25px;
+}
+.about_my_description {
+  width      : 400px;
+  scale      : normal;
+  size       : 14px;
+  line-height: 24px;
+  color: #595959;
+  margin-bottom: 25px;
+}
+
+.main_content_title {
+    font-style : normal;
+    font-weight: bold;
+    font-size  : 22px;
+    line-height: 27px; 
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+/* my projekts */
+
+.my_projekt_list {
+    padding: 0 0 0 17px;
+}
+.my_projekts_item {
+    color: black;
+    font-weight: bold;
+}
+.my_projekt_link {
+font-style : normal;
+font-weight: normal;
+font-size  : 14px;
+line-height: 24px;
+color      : #595959; 
+}
+.my_project_text {
+font-style : normal;
+font-weight: normal;
+font-size  : 14px;
+line-height: 24px;
+color:  #595959;
+margin-left: 5px;
+}
+.my_projekt_bracket {
+font-style : normal;
+font-weight: bold;
+font-size  : 14px;
+line-height: 24px;
+color: #000000;
+}
+
+/* my experience */
+.my_experience {
+   margin-bottom: 40p;
+}
+.my_work_ezperience_position {
+font-style : normal;
+font-weight: bold;
+font-size  : 16px;
+line-height: 20px;
+color: #000000;
+margin: 0 0 10px 0;
+}
+.my_work_ezperience_time {
+font-style : normal;
+font-weight: normal;
+font-size  : 12px;
+line-height: 15px;
+color: #A8A8A8;
+margin: 0 0 10 0;
+}
+.my_work_ezperience_sp {
+    color: black;
+}
+.my_work_ezperience_duties {
+    padding: 0 0 0 18pt;
+    margin: 0 0 40px 0;
+}
+.my_work_ezperience_duty {
+font-style : normal;
+font-weight: normal;
+font-size  : 14px;
+line-height: 24px;
+color: #595959;
+width: 500px;
+margin: 0 0 15px 0;
+}
+
+/* my education */
+.my_education {
+    margin: 0 0 100px 0;
+}
+.my_speciality {
+font-style : normal;
+font-weight: bold;
+font-size  : 14px;
+line-height: 17px;
+color: #000000;
+margin: 0 0 10px 0;
+}
+
+
+
+
+/* sidebar sektion */
+
+.sidebar_section {
+background-color: rgb(42, 42, 58);
+width: 370px; 
+padding: 40px 0px;
+}
+
+.contact_sektion,
+.tech_sektion {
+margin: 50px 0 0 40px;
+}
+.soft_sektion {
+margin: 45px 0 0 40px;
+}
+
+.contact_sektion {
+    width: 700px; 
+    size: 22px; 
+    line-height: 26, 82px; 
+    color: white;
+    margin-bottom: 10px;
+}
+
+.tech_sektion {
+    width        : 700px;
+    size         : 22px;
+    line-height  : 26, 82px;
+    color        : white;
+    margin-bottom: 10px;
+}
+
+.soft_sektion {
+    width        : 700px;
+    size         : 22px;
+    line-height  : 26, 82px;
+    color        : white;
+    margin-bottom: 10px;
+}
+
+/* contakts sektion */
+.contact_sektion_type {
+width: 700px; 
+size: 14px;
+line-height: 24px; 
+color: white;
+margin-right: 5px;
+}
+.contact_sektion_link {
+color: honeydew;
+width : 183px;
+height: 83px;
+left  : 80px;
+top   : 485px;
+}
+
+/* skills */
+.skils_list {
+padding-left: 17px;
+}
+.skills_ites {
+    color: #FB6D3A;
+}
+.skills_ites_text {
+font-style : normal;
+font-weight: normal;
+font-size  : 14px;
+line-height: 24px;
+color: #FFFFFF;
+}
+
+img {
+    width: 370px;
+}
