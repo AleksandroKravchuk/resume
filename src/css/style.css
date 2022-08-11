@@ -8,7 +8,6 @@ background-color:  #E5E5E5;;;
     color: black;
 }
 li {
-    color: 595959;
     font-size: 14px;
     line-height: 24px;
 }
@@ -19,48 +18,51 @@ li {
     width: 1200px;
     background: white;
     margin: 40px auto;
+   padding-left: 50px;
     box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
 }
 
 .main_content_sektion {
-margin: 100px 90px 100px 90px;
+margin: 50px 80px 100px 80px;
 }
 /* about me section */
 
 .about_me {
+    width: 720px;
+padding: 20px;
+    background-color: rgb(42, 42, 58);
     margin-bottom: 40px;
+    text-align: center;
+}
+
+.about_my_name {
+   
+color: #FFFFFF;
+font-size: 40px;
+    line-height: 17px;
+    margin-bottom: 30px;
 }
 .about_my_proffesion {
-   width: 700px; 
-   scale: normal; 
-   size: 14px;
+  font-size: 20px;
    line-height: 17px; 
-   color: #595959; 
-   margin-bottom: 20px;
+  color: whitesmoke;
+  opacity: 0.7;
+   margin-bottom: 30px;
 }
-.about_my_name {
-    width      : 700px;
-    scale      : normal;
-    size       : 14px;
-    line-height: 17px;
-    color: #595959;
-    margin-bottom: 25px;
-}
+
 .about_my_description {
-  width      : 400px;
-  scale      : normal;
-  size       : 14px;
-  line-height: 24px;
-  color: #595959;
-  margin-bottom: 25px;
+    text-align: start;
+  font-size: 16px;
+   line-height:1.2; 
+  color: whitesmoke;
+  opacity: 0.7;
+ letter-spacing: 1.2px;
 }
 
 .main_content_title {
+    padding-left: 20px;
     font-style : normal;
-    font-weight: bold;
-    font-size  : 22px;
-    line-height: 27px; 
-    color: #000000;
+    color        : white;
     margin-bottom: 10px;
 }
 
@@ -70,21 +72,31 @@ margin: 100px 90px 100px 90px;
     padding: 0 0 0 17px;
 }
 .my_projekts_item {
-    color: black;
+color:  #595959;
     font-weight: bold;
+    list-style: none;
+}
+.my_projekts_item:not(:last-child) {
+    margin-bottom: 10px;
+}
+.github_link {
+    color: #FB6D3A;
+    margin-left: 10px;
 }
 .my_projekt_link {
 font-style : normal;
-font-weight: normal;
-font-size  : 14px;
-line-height: 24px;
-color      : #595959; 
+font-weight: bold;
+font-size  : 24px;
+line-height: 1.8;
+text-decoration: underline;
+cursor: pointer;
+color: #FB6D3A;
 }
 .my_project_text {
 font-style : normal;
 font-weight: normal;
-font-size  : 14px;
-line-height: 24px;
+font-size  : 18px;
+line-height: 1.6px;
 color:  #595959;
 margin-left: 5px;
 }
@@ -93,20 +105,23 @@ font-style : normal;
 font-weight: bold;
 font-size  : 14px;
 line-height: 24px;
-color: #000000;
+color:  #595959;
 }
 
 /* my experience */
 .my_experience {
-   margin-bottom: 40p;
+   margin-bottom: 40px;
+}
+.projekts {
+    margin-bottom: 40px;
 }
 .my_work_ezperience_position {
 font-style : normal;
-font-weight: bold;
-font-size  : 16px;
-line-height: 20px;
-color: #000000;
-margin: 0 0 10px 0;
+font-weight: normal;
+font-size  : 18px;
+line-height: 1.6px;
+color:  #595959;
+margin-left: 5px;
 }
 .my_work_ezperience_time {
 font-style : normal;
@@ -139,10 +154,10 @@ margin: 0 0 15px 0;
 }
 .my_speciality {
 font-style : normal;
-font-weight: bold;
-font-size  : 14px;
-line-height: 17px;
-color: #000000;
+font-weight: normal;
+font-size  : 18px;
+line-height: 1.6;
+color: #595959;
 margin: 0 0 10px 0;
 }
 
@@ -152,74 +167,99 @@ margin: 0 0 10px 0;
 /* sidebar sektion */
 
 .sidebar_section {
-background-color: rgb(42, 42, 58);
+background-color: rgb(149, 149, 169);
 width: 370px; 
 padding: 40px 0px;
+
 }
 
 .contact_sektion,
-.tech_sektion {
+.tech_sektion, .soft_sektion {
 margin: 50px 0 0 40px;
 }
-.soft_sektion {
-margin: 45px 0 0 40px;
+.skill_title {
+    padding-left: 20px;
 }
 
 .contact_sektion {
-    width: 700px; 
-    size: 22px; 
+    width: 280px; 
     line-height: 26, 82px; 
     color: white;
     margin-bottom: 10px;
 }
 
+.section_title{
+     width:100%; 
+    display: flex;
+    align-items: center;
+     background-color: rgb(42, 42, 58); 
+    height: 40px;
+    letter-spacing: 1.4px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+.contact_list{
+    color: honeydew;
+}
+.contact_item {
+    color: #FB6D3A;
+}
+.language_item {
+    list-style: none;
+}
+.contact_item:not(:last-child){
+margin-bottom: 5px;
+}
+.contact_sektion_link {
+color: honeydew;
+text-decoration: none;
+font-style : normal;
+font-weight: normal;
+font-size  : 18px;
+line-height: 1.6;
+}
 .tech_sektion {
-    width        : 700px;
-    size         : 22px;
-    line-height  : 26, 82px;
+   width: 280px; 
     color        : white;
     margin-bottom: 10px;
 }
 
 .soft_sektion {
-    width        : 700px;
-    size         : 22px;
-    line-height  : 26, 82px;
+   width: 280px; 
     color        : white;
     margin-bottom: 10px;
 }
 
 /* contakts sektion */
-.contact_sektion_type {
+/* .contact_sektion_type {
 width: 700px; 
 size: 14px;
 line-height: 24px; 
 color: white;
 margin-right: 5px;
-}
-.contact_sektion_link {
-color: honeydew;
-width : 183px;
-height: 83px;
-left  : 80px;
-top   : 485px;
-}
+} */
+
 
 /* skills */
 .skils_list {
 padding-left: 17px;
 }
 .skills_ites {
+    font-style : normal;
+font-weight: normal;
+font-size  : 18px;
+line-height: 1.6;
     color: #FB6D3A;
 }
 .skills_ites_text {
 font-style : normal;
 font-weight: normal;
-font-size  : 14px;
-line-height: 24px;
+font-size  : 18px;
+line-height: 1.6;
 color: #FFFFFF;
 }
 
 img {
     width: 370px;
+    border-radius: 50%;
 }
