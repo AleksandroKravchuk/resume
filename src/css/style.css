@@ -79,6 +79,7 @@ line-height: 1.6;
     padding: 0 0 0 17px;
 }
 .my_projekts_item {
+    position: relative;
    font-style : normal;
 font-weight: normal;
 font-size  : 18px;
@@ -91,7 +92,8 @@ line-height: 1.6;
 .github_link {
     color: black;
     font-weight: bold;
-    margin-left: 10px;
+   position:absolute;
+   right:0;
 }
 .my_projekt_link {
 font-style : normal;
