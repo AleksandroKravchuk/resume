@@ -28,20 +28,20 @@ li {
 }
 
 .main_content_sektion {
-margin: 50px 80px 100px 80px;
+margin: 0px 0px 100px 0px;
 }
 /* about me section */
 
 .about_me {
     width: 720px;
-padding: 20px;
+padding: 30px;
     background-color: rgb(42, 42, 58);
     margin-bottom: 40px;
     text-align: center;
 }
 
 .about_my_name {
-   
+
 color: #FFFFFF;
 font-size: 40px;
     line-height: 17px;
@@ -49,7 +49,7 @@ font-size: 40px;
 }
 .about_my_proffesion {
   font-size: 20px;
-   line-height: 17px; 
+   line-height: 17px;
   color: whitesmoke;
   opacity: 0.7;
    margin-bottom: 30px;
@@ -67,16 +67,16 @@ line-height: 1.6;
 }
 
 .main_content_title {
-    padding-left: 20px;
+    padding-left: 30px;
     font-style : normal;
     color        : white;
-    margin-bottom: 10px;
+    /* margin-bottom: 10px; */
 }
 
 /* my projekts */
 
 .my_projekt_list {
-    padding: 0 0 0 17px;
+    padding: 0px 30px 0px 30px;
 }
 .my_projekts_item {
     position: relative;
@@ -85,6 +85,7 @@ font-weight: normal;
 font-size  : 18px;
 line-height: 1.6;
     list-style: none;
+    /* padding: 0px 20px 0px 20px; */
 }
 .my_projekts_item:not(:last-child) {
     margin-bottom: 10px;
@@ -93,7 +94,7 @@ line-height: 1.6;
     color: black;
     font-weight: bold;
    position:absolute;
-   right:0;
+   right:0px;
 }
 .my_projekt_link {
 font-style : normal;
@@ -120,6 +121,7 @@ line-height: 1.6;
 /* my experience */
 .my_experience {
    margin-bottom: 40px;
+   /* padding:0px 30px 0px 30px ; */
 }
 .projekts {
     margin-bottom: 40px;
@@ -129,7 +131,8 @@ font-style : normal;
 font-weight: bold;
 font-size  : 18px;
 line-height: 1.6;
-margin-left: 5px;
+   padding:0px 30px 0px 30px ;
+/* margin-left: 30px; */
 }
 .my_work_ezperience_time {
 font-style : normal;
@@ -137,6 +140,7 @@ font-weight: normal;
 font-size  : 18px;
 line-height: 1.6;
 margin: 0 0 10 0;
+   padding:0px 30px 0px 30px ;
 }
 .my_work_ezperience_sp {
     color: black;
@@ -165,6 +169,7 @@ font-weight: normal;
 font-size  : 18px;
 line-height: 1.6;
 margin: 0 0 10px 0;
+padding:0px 30px 0px 30px ;
 }
 
 
@@ -174,7 +179,7 @@ margin: 0 0 10px 0;
 
 .sidebar_section {
 background-color: rgb(149, 149, 169);
-width: 100%; 
+width: 100%;
 padding: 50px 0px;
 text-align: center;
 }
@@ -187,21 +192,21 @@ margin-top: 40px;
 margin-left: 0;
 }
 .skill_title {
-    padding-left: 20px;
+    padding-left: 40px;
 }
 
 .contact_sektion {
-    width: 280px; 
-    line-height: 26, 82px; 
+    width: 100%;
+    line-height: 26, 82px;
     color: white;
     margin-bottom: 10px;
 }
 
 .section_title{
-     width:100%; 
+     /* width:100%; */
     display: flex;
     align-items: center;
-     background-color: rgb(42, 42, 58); 
+     background-color: rgb(42, 42, 58);
     height: 40px;
     letter-spacing: 1.4px;
     margin-bottom: 10px;
@@ -231,22 +236,22 @@ font-size  : 18px;
 line-height: 1.6;
 }
 .tech_sektion {
-   width: 280px; 
+   width: 100%;
     color        : white;
     margin-bottom: 10px;
 }
 
 .soft_sektion {
-   width: 280px; 
+   width: 100%;
     color        : white;
     margin-bottom: 10px;
 }
 
 /* contakts sektion */
 /* .contact_sektion_type {
-width: 700px; 
+width: 700px;
 size: 14px;
-line-height: 24px; 
+line-height: 24px;
 color: white;
 margin-right: 5px;
 } */
@@ -261,7 +266,7 @@ padding-left: 17px;
 font-weight: bold;
 font-size  : 18px;
 line-height: 1.6;
-    
+padding:0px 30px 0px 30px ;
 }
 .skills_ites_text {
 font-style : normal;
@@ -272,6 +277,6 @@ color: #FFFFFF;
 }
 
 img {
-    width: 250px;
+    width: 200px;
     /* border-radius: 50%; */
 }
